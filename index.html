@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./Logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITUM Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+          <img src="./Logo.png" alt="" />
+        </div>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>ITUM </span>Restaurant</a>
+      <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Dishes">Dishes</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Review">Review</a>
+        <a href="#Order">Order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="addtocard.html" class="fas fa-shopping-cart"></a>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search Here...." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>Register Here</h3>
+        <p>Username</p>
+        <input type="text" class="box" placeholder="Enter your Username" required="" />
+        <p>Email</p>
+        <input type="email" class="box" placeholder="Enter Your Email Id" required="" />
+        <p>Password</p>
+        <input type="password" class="box" placeholder="Enter Password" required="" />
+        <p>Retype Password</p>
+        <input type="password" class="box" placeholder="Re-Enter Password" required="" />
+        <br><br>
+
+        <input type="submit" value="Register" class="btn"/>
+
+        <br><br>
+        <a href="login.html">Existing user,Login!?</a>
+      </form>
+    </div>
+    
+
+    <!-- Home section starts -->
+
+    <section class="Home" id="Home">
+      <div class="content">
+        <h3>Enjoy Delicious Food</h3>
+        <p>
+          Eating yummy food is so much fun! When you enjoy delicious meals, it's
+          like a party in your mouth. The flavors dance around, making you feel
+          super happy.
+        </p>
+        <a href="Menu.html" class="btn">See Menu</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="./video1.mp4"></span>
+        <span class="vid-btn" data-src="./video2.mp4"></span>
+        <span class="vid-btn" data-src="./video3.mp4"></span>
+        <span class="vid-btn" data-src="./video4.mp4"></span>
+        <span class="vid-btn" data-src="./video5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video src="./video1.mp4" id="video-slider" loop autoplay muted></video>
+      </div>
+    </section>
+    <br />
+
+    <!-- Home section ends -->
+
+    <!-- About section starts -->
+
+    <section class="About" id="About">
+      <h3 class="sub-heading">About us</h3>
+      <h1 class="heading">Why choose us?</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./Home5.webp" alt="" />
+        </div>
+
+        <div class="content">
+          <h2>Best food in the country</h2>
+          <p>
+            Welcome to ITUM Reasturent, where culinary excellence meets warm
+            hospitality. Our passion for food is reflected in every dish we
+            serve. From farm-fresh ingredients to exquisite flavors, each meal
+            tells a story of dedication and creativity. Join us for a memorable
+            dining experience.
+          </p>
+          <p>
+            At ITUM Reasturent, we believe in crafting more than just meals; we
+            create moments. Our chefs blend culinary expertise with a dash of
+            innovation, ensuring each bite is a celebration of taste and
+            artistry.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Fast delivery</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>Easy payments</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 Service</span>
+            </div>
+          </div>
+          <a href="Footer.html" class="btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- About section ends -->
+
+    <!-- Dishes section starts -->
+
+    <section class="Dishes" id="Dishes">
+      <h1 class="heading">
+        <span>D</span>
+        <span>i</span>
+        <span>s</span>
+        <span>h</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./item1.1.jpg" alt="" />
+          <div class="content">
+            <p>
+              Biryani is a flavorful and aromatic dish made with spiced rice,
+              meat (chicken, mutton, or beef), and fragrant spices.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="Menu.html" class="btn">View Menu</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./item1.jpeg" alt="" />
+          <div class="content">
+            <p>
+              Pizza is an iconic and globally loved dish, originating from Italy
+              and now enjoyed worldwide.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="Menu.html" class="btn">View Menu</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./item3.2.jpeg" alt="" />
+          <div class="content">
+            <p>
+              A Burger Is A Popular Fast-Food Item Consisting Of A Ground Meat
+              Patty, Usually Beef, Placed Inside A Sliced Bun.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="Menu.html" class="btn">View Menu</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./item4.jpeg" alt="" />
+          <div class="content">
+            <p>
+              Ice Cream Is A Beloved Frozen tasty Dessert Made From Dairy
+              Products Or Non-Dairy Alternatives, Sweeteners, And Flavorings.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="Menu.html" class="btn">View Menu</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./item3.jpg" alt="" />
+          <div class="content">
+            <p>
+              Coffee And Tea Offer A Variety Of Tastes, From The Bold And Robust
+              Flavors Of Coffee To The Diverse Range Of Notes Found In Different
+              Types Of Tea.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="Menu.html" class="btn">View Menu</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./item2.1.jpg" alt="" />
+          <div class="content">
+            <p>
+              Coca-Cola, Often Referred To As Coke, Is One Of The Most Popular
+              And Recognizable Carbonated Beverages Globally.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="Menu.html" class="btn">View Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!-- Dishes section ends -->
+
+    <!-- Menu section stars -->
+
+    <section class="Menu" id="Menu">
+      <h1 class="sub-heading">Our Menu</h1>
+      <h2 class="heading">Today's Special</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./Menu1 Biryani.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Biryani</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs800.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu2 Pasta.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Pasta</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs600.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu3 Avacado Toast.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Avacado Toast</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs500.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu4  Sushi Burritos.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Sushi Burritos</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs400.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu5 Acai Bowls.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Acai Bowls</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs600.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu6 Quinoa Bowls.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Quinoa Bowls</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs900.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu7 Laksa.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Laksa</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs500.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu8 Tacos.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Tacos</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs300.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu9 Burgers.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Burgers</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs700.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu10 Fries.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Fries</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs200.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu11 Coffee.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Coffee</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs100.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu12  Matcha Lattes.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Matcha Lattes</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs250.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu13 Kombucha.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Kombucha</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs350.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu14  Smoothies.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Smoothies</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs400.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu15 Fruit Infused water.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Fruit Infused water</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs200.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu16  Coconut Water.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Coconut Water</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs150.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu17 Vegetable Juices.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Vegetable Juices</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs200.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./Menu19  Milk.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Milk</h3>
+            <a href="addtocard.html" class="btn">Add to cart</a>
+            <span class="price">Rs100.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- Menu section ends -->
+
+    <!-- Review section starts -->
+
+    <section class="Review" id="Review">
+      <h1 class="sub-heading">Review</h1>
+
+      <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./pic1.jpg" alt="" />
+              <h3>Danu</h3>
+              <p>
+                A hidden gem, Savory Oasis exudes culinary excellence.
+                Impeccable service, a diverse menu, and expertly crafted dishes
+                make every visit memorable. A must-try for food enthusiasts
+                seeking flavor perfection.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./pic2.jpg" alt="" />
+              <h3>Anu</h3>
+              <p>
+                The chef's innovative twists on classics are a revelation. Each
+                visit promises a delightful journey of taste and sophistication.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./pic3.jpg" alt="" />
+              <h3>Jathis</h3>
+              <p>
+                Nestled in charm, this culinary retreat captivates with its warm
+                atmosphere and exceptional fare. The menu is a celebration of
+                local flavors, delivering a comforting experience that feels
+                like home.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./pic4.jpg" alt="" />
+              <h3>Sana</h3>
+              <p>
+                each dish is a harmonious blend of textures and tastes. The
+                chef's artistry is evident in every bite, creating a symphony of
+                flavors that lingers long after.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./pic5.jpg" alt="" />
+              <h3>Dora</h3>
+              <p>
+                An epicurean's delight, this establishment elevates dining to an
+                art form. Exquisite presentation, top-notch service, and a
+                diverse menu of palate-pleasing options make it a standout
+                destination for culinary connoisseurs.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- Order section starts -->
+
+    <section class="Order" id="Order">
+      <h1 class="heading">Order Now</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Name</span>
+            <input type="text" placeholder="Enter Your Name" />
+          </div>
+
+          <div class="input">
+            <span>Your Number</span>
+            <input type="number" placeholder="Enter Your Number" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Order</span>
+            <input type="text" placeholder="Enter Your Food Name" />
+          </div>
+
+          <div class="input">
+            <span>Additional Food</span>
+            <input type="test" placeholder="Extra with Food" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>How Much</span>
+            <input type="number" placeholder="How Many Orders" />
+          </div>
+
+          <div class="input">
+            <span>Date and Time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Address</span>
+            <textarea
+              name=""
+              placeholder="Enter Your Address"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="input">
+            <span>Your Message</span>
+            <textarea
+              name=""
+              placeholder="Enter Your Message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="Order Now" class="btn" />
+      </form>
+    </section>
+    <br>
+
+    <!-- Order section ends -->
+
+
+     <!-- Footer section starts -->
+
+     <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Locations</h3>
+          <a href="">Colombo</a>
+          <a href="">Jaffna</a>
+          <a href="">Galle</a>
+          <a href="">Kandy</a>
+          
+      </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="Home.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Dishes.html">Dishes</a>
+          <a href="Menu.html">Menu</a>
+          <a href="Review.html">Review</a>
+          <a href="Order.html">Order</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#">+123-456-7890</a>
+          <a href="#">+021-123-4444</a>
+          <a href="#">itum@gmail.com</a>
+          
+        </div>
+         <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          
+        </div>
+
+      </div>
+
+      <div class="credit">Copyright @ 2023 by <span>ITUM</span></div>
+
+
+     </section>
+
+  <!-- Footer section ends -->
+
+
+    <!-- Loader part starts -->
+
+    <div class="loader-container">
+      <img src="./loader2.gif" alt="">
+    </div>
+
+<!-- Loader part ends -->
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
